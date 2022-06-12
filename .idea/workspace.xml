@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3efa789-a840-4b7e-8919-c3390810b9e6" name="Changes" comment="Check in code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter01/Demo/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/Demo/Welcome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="Reference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Welcome">
+  <component name="RunManager" selected="Application.Exercise01_01">
     <configuration name="ComputeExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter01.Demo.ComputeExpression" />
       <module name="Java-Programming" />
@@ -80,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeFactorialTailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.Demo.ComputeFactorialTailRecursion" />
+    <configuration name="Exercise01_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01.Exercises.Exercise01_01" />
       <module name="Java-Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter18.Demo.*" />
+          <option name="PATTERN" value="chapter01.Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise01_01" />
         <item itemvalue="Application.Welcome" />
         <item itemvalue="Application.ShowLogicErrors" />
         <item itemvalue="Application.ShowRuntimeErrors" />
         <item itemvalue="Application.ComputeExpression" />
-        <item itemvalue="Application.ComputeFactorialTailRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +167,7 @@
       <workItem from="1651345945672" duration="2187000" />
       <workItem from="1654962021732" duration="3019000" />
       <workItem from="1654993877396" duration="1611000" />
+      <workItem from="1655044153926" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Check in code">
       <created>1642628813799</created>
@@ -513,6 +513,11 @@
           <url>file://$PROJECT_DIR$/src/chapter01/Demo/ShowRuntimeErrors.java</url>
           <line>4</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter01/Exercises/Exercise01_01.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

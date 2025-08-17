@@ -1,16 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        int number = 25;
-        int i;
 
-        boolean isPrime = true;
-        for (i = 2; i < number && isPrime; i++) {
-            if (number % i == 0) {
-                isPrime = false;
-            }
+    // Factorial of a number n (denoted as n!) is defined as:
+    // n! = n × (n - 1)!
+    // 0! = 1 (base case)
+    // Recursive method to calculate factorial
+    public static int factorial(int n) {
+        if (n == 0) {
+            return 1; // base case
+        } else {
+            return n * factorial(n - 1); // recursive case
         }
-        System.out.println("i is " + i + " isPrime is " + isPrime);
+    }
+
+    public static void main(String[] args) {
+        int number = 5;
+        int result = factorial(number);
+        System.out.println(number + "! = " + result); // Output: 5! = 120
     }
 }
